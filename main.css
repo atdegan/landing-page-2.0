@@ -1,0 +1,95 @@
+#large-margin {
+	margin-top: 192px;
+	margin-bottom: 192px;
+}
+
+#hero {
+	background-image: url('http://gamingtrend.com/wp-content/screenshots/the-amazing-spider-man/asm-spider-man-web-rushing-across-the-streets.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#mytheme .mytheme-row-gray {
+	background-color: #767676;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.fullpage {
+	height: 100%;
+	/*to center content horizontally and vertically*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fullpage-img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.fullpage-content {
+	width: 60%;
+}
+
+.fullpage-content h2 {
+	font-size: 56px;
+	color: white;
+}
+
+.fullpage-content h3 {
+	font-size: 26px;
+	color: white;
+}
+.fullpage-content h5 {
+	font-size: 26px;
+}
+
+.theme-img1 {
+	background-image: url(https://images.unsplash.com/photo-1461174106495-31e4ca6ed98a?dpr=2&auto=format&fit=crop&w=767&h=1149&q=80&cs=tinysrgb&crop=);
+}
+
+.theme-img2 {
+	background-image: url(https://images.unsplash.com/photo-1484836443634-3d3fd80edccf?dpr=1&auto=format&fit=crop&w=767&h=512&q=80&cs=tinysrgb&crop=);
+/*	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);*/
+	align-content: center;
+	background-position: center;
+	align-content: center;
+}
+
+#item {
+	object-position: center 
+			
+}
+
+.theme-img3 {
+	background-image: url(https://images.unsplash.com/photo-1471440671318-55bdbb772f93?dpr=);
+}
+
+.sidenav {
+	position: fixed;
+	top: 30%;
+	right: 15px;
+	width: 22px;
+	opacity: 0;
+	
+
+	/*to fix disappearing problem*/
+	z-index: 999999;
+}
+#ui-centered-medium-image {
+	align-content: center;
+}
+
+#mytheme .sidenav-link {
+	margin-bottom: 15px;
+	display: block;
+}
+
+
+
