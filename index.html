@@ -1,0 +1,164 @@
+<!-- https://neoschat.slack.com/messages/general/ -->
+<!doctype html>
+<html>
+	<head>
+		<!-- LOL top level html tags, yo -->
+		<title>Kettle & Co.</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body id="mytheme">
+		<div class="ui menu">
+  <div class="header item">
+    <img src="kco-logo-simple-01.png" height="35" width="40">
+  </div>
+  <a class="item">
+    About Kettle & Co. <!--<a href="#jump-link">Click here to see the content below.</a>-->
+  </a>
+  <a class="item"> 
+    Join Waitlist <!--http://www.123contactform.com/form-2474339/My-Form--> <!--<a style="color:black;" href="http://www.123contactform.com/form-2474339/My-Form"> Join the Waitlist </a> -->
+  </a>
+</div><!-- ui top fixed menu -->
+		<p></p>
+		<p></p>
+		<div class="sidenav">
+			
+			<a href="#img1" class="circular ui icon button inverted sidenav-link"></a>
+			<a href="#img2" class="circular ui icon button inverted sidenav-link"></a>
+			<a href="#img3" class="circular ui icon button inverted sidenav-link"></a>
+
+		</div>
+		<div id="img1" class="fullpage fullpage-img theme-img1">
+			<div class="fullpage-content">
+				<h2> It's pretty simple. <br> We love tea, and we want to make your tea-brewing experience as awesome as possible.  </h2>
+				<h3>Electic kettles for the modern American. </h3>
+			</div>
+		</div>
+
+		<div id="img2" class="fullpage fullpage-img theme-img2"> 
+			<div class="fullpage-content" class="ui centered small image" class="item">
+			</div>
+				<div class="ui basic segment">
+  					<img src="logo.png" height="275" width="250">
+				</div>
+		</div>
+
+		<div id="img3" class="fullpage fullpage-img theme-img3"> 
+			<div class="fullpage-content">
+			<div class="ui vertical very padded segment" style="color:white;" >
+  				<p><h5>Kettle & Co. is a startup based in NYC.  Our 				goal is to create electric kettles that are 				technologically cutting-edge while maintainig a 				timeless, beautiful look.  We'd love to keep you 				around, so please join our waitlist below to stay 				updated on our launch! 
+  				</h5></p>
+</div>
+				
+
+			</div>
+		</div>
+
+		<!-- column content -->
+		<div class="ui two column grid centered mytheme-row-gray">
+			<div class="four column centered row">
+				<div class="column">
+					<div class="ui segment grey inverted">
+					  <h2>Connect</h2>
+					  <p>Get to know a little bit about us</p> <br>
+					  <button class="fluid ui button">Meet the team</button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui segment grey inverted">
+					  <h2>Join the Waitlist</h2>
+					  <p>Stay updated on our upcoming launch</p> <br>
+					  <button class="fluid ui blue button"><a style="color:white;" href="http://www.123contactform.com/form-2474339/My-Form"> Join the Waitlist </a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui segment grey inverted">
+					  <h2>Prototypes</h2>
+					  <p>Check out some of the styles we want to emulate with our own kettles</p>
+					  <button class="fluid ui button">Now we're talking</button>
+					</div>
+				</div>
+			</div><!-- four column centered row -->
+		</div><!-- three column grid -->
+		<!-- end column content -->
+
+		<!-- FOOTER -->
+
+		<div class="ui inverted vertical footer segment">
+			<!--<img src="kco-logo-simple-01.png" class="ui centered mini image"-->
+			<div class="ui inverted section divider"></div>
+			<div class="ui center aligned container">
+				<div class="ui stackable inverted divided grid">
+					<div class="three wide column">
+						<h4 class="ui inverted header">Connect</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">Info</a>
+							<a href="#" class="item">Katie</a>
+							<a href="#" class="item">Allison</a>
+						</div>
+					</div>
+					<div class="three wide column">
+						<h4 class="ui inverted header">Our Plan</h4>
+						<div class="ui inverted link list">
+								<a href="#" class="item">Info</a>
+								<a href="#" class="item">Presentation</a>
+								<a href="#" class="item">Business Junk</a>
+							</div>
+					</div>
+					<div class="three wide column">
+						<h4 class="ui inverted header">Invest</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">Info</a>
+							<a href="#" class="item">Application</a>
+							<a href="#" class="item">Estimates</a>
+						</div>
+					</div>
+					<div class="seven wide column">
+						<h4 class="ui inverted header"> Cash us ousside </h4> 
+							<button class="ui circular facebook icon button">
+ 							 <i class="facebook icon"></i>
+							</button>
+							<button class="ui circular twitter icon button">
+ 							 <i class="twitter icon"></i>
+							</button>
+							<button class="ui circular linkedin icon button">
+							  <i class="linkedin icon"></i>
+							</button>
+							<button class="ui circular google plus icon button">
+							  <i class="google plus icon"></i>
+							</button>
+						</div><!--h4 class="ui inverted header">MORE STUFF HERE</h4-->
+					</div> 
+				</div> <br>
+			</div><!-- ui center aligned container -->
+		</div>
+		<!-- END FOOTER -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+			const sideNav = $('.sidenav');
+			console.log(sideNav)
+			sideNav.animate({
+				opacity: '1.0'
+			}, 1000);
+
+			// 
+
+			$('.sidenav-link').on('click', function(e) {
+				// this will run ONLY when the user registers a click
+				// on .sidenav-link
+
+				e.preventDefault();
+
+				// first get the CURRENT link you clicked on
+				const currentLinkClicked = $(e.target);
+
+				// then, get the #[img]Name
+				const pageToGoTo = currentLinkClicked.attr('href');
+
+				// scroll to it
+				$('html, body').animate({scrollTop: $( pageToGoTo ).offset().top}, 300);
+			});
+		</script>
+	</body>
+</html>
+
